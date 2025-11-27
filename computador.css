@@ -103,18 +103,1529 @@ body {
     justify-content: center;
 }
 
-#barra-superior{
-    width: 2600px;
-    height: 40px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    position: absolute;
-    top:0.1%;
-    left:1%;
-    z-index: 2;
+
+
+.nombresu{
+    color: rgb(255, 255, 255); 
+    margin:1.2em;
+    font-size: small;
 }
 
-#nombres-superior{
-    color: rgb(255, 255, 255);
-    z-index: 2;
+#contenedor-nombresu{
+    display: flex;
+    background-color: rgb(0, 0, 0); /* Fondo negro para los nombres */
+    padding: 10px 0;
+}
+
+#barra-superior{
+    width: 2600px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0.1%;
+}
+
+#ventana {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(92, 18, 15);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#borde{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(53, 11, 11);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulo{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudos{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutres{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateral{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(53, 11, 11);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscador{
+  width:84%;
+  height:10%;
+  background-color:rgb(224, 172, 28);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscador{
+  width: 20%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+.billiev{
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#copycat{
+    position: relative;
+    top:146px;
+    left: 356px;
+}
+#titulocopycat{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 366px;
+    top:128px;
+}
+#idont{
+    position: relative;
+    top:40px;
+    left: 527px;
+}
+#tituloidont{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 514px;
+    top:27px;
+}
+#boy{
+    position: relative;
+    top: 70px;
+    left: 240px;
+}
+#tituloboy{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 246px;
+    top:51px;
+}
+
+
+#watch{
+    position: relative;
+    top: 28px;
+    left: 298px;
+}
+#titulowatch{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 310px;
+    top:8px;
+}
+#party{
+    position: relative;
+    top: 1px;
+    left: 385px;
+}
+#tituloparty{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 379px;
+    bottom:18px;
+}
+#belly{
+    position: relative;
+    bottom: 108px;
+    left:500px;
+}
+#titulobelly{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 503px;
+    bottom:124px;
+}
+
+#ocean{
+    position: relative;
+    bottom:300px;
+    left:576px;
+}
+#titulocean{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 580px;
+    bottom:318px;
+}
+#hostage{
+    position: relative;
+    bottom: 480px;
+    left:654px;
+}
+#titulohostage{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 663px;
+    bottom:498px;
+}
+
+
+/* belly */
+
+#ventanabelly {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(248, 212, 95);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordebelly{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(224, 172, 28);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulobelly{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosbelly{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresbelly{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralbelly{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(224, 172, 28);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadorbelly{
+  width:84%;
+  height:10%;
+  background-color:rgb(116, 24, 17);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadorbelly{
+  width: 13%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+#video-bellyache{
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: 32%;
+    left: 25%;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px rgb(224, 172, 28);
+}
+
+/* maneskin */
+
+#ventanama {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(117, 63, 26);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordema{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(59, 26, 7);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circuloma{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosma{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresma{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralma{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(59, 26, 7);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadorma{
+  width:84%;
+  height:10%;
+  background-color:rgb(163, 131, 71);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadorma{
+  width: 20%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+.maneskinv{
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#zitti{
+    position: relative;
+    top:176px;
+    left: 340px;
+}
+#titulozitti{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 346px;
+    top:158px;
+}
+#coraline{
+    position: relative;
+    top:65px;
+    left: 570px;
+}
+#titulocoraline{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 564px;
+    top:47px;
+}
+#lividi{
+    position: relative;
+    top: 70px;
+    left: 450px;
+}
+#titulolividi{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 458px;
+    top:51px;
+}
+
+
+#wanna{
+    position: relative;
+    top: 45px;
+    left: 298px;
+}
+#titulowanna{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 310px;
+    top:30px;
+}
+#nome{
+    position: relative;
+    top: 30px;
+    left: 185px;
+}
+#titulonome{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 179px;
+    top:16px;
+}
+#love{
+    position: relative;
+    bottom: 78px;
+    left:710px;
+}
+#titulolove{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 723px;
+    bottom:94px;
+}
+
+#paura{
+    position: relative;
+    bottom:300px;
+    left:576px;
+}
+#titulopaura{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 580px;
+    bottom:318px;
+}
+#vent{
+    position: relative;
+    bottom: 280px;
+    left:442px;
+}
+#titulovent{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 463px;
+    bottom:298px;
+}
+
+/* vent */
+#ventanavent {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(163, 131, 71);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordevent{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(117, 63, 26);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulovent{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosvent{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresvent{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralvent{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(117, 63, 26);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadorvent{
+  width:84%;
+  height:10%;
+  background-color:rgb(59, 26, 7);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadorvent{
+  width: 13%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+#video-vent{
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: 32%;
+    left: 25%;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px rgb(39, 26, 3);
+}
+
+/* solene */
+
+#ventanaso {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(216, 72, 96);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordeso{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(99, 9, 24);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circuloso{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosso{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresso{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralso{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(99, 9, 24);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadorso{
+  width:84%;
+  height:10%;
+  background-color:rgba(57, 143, 49, 0.849);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadorso{
+  width: 20%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+.solenev{
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#flow{
+    position: relative;
+    top:246px;
+    left: 280px;
+}
+#tituloflow{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 283px;
+    top:228px;
+}
+#honey{
+    position: relative;
+    top:142px;
+    left: 680px;
+}
+#titulohoney{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 675px;
+    top:124px;
+}
+#third{
+    position: relative;
+    bottom: 50px;
+    left: 480px;
+}
+#titulothird{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 468px;
+    bottom:68px;
+}
+
+
+#uncrossing{
+    position: relative;
+    top: 85px;
+    left: 568px;
+}
+#titulouncrossing{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 570px;
+    top:70px;
+}
+#feed{
+    position: relative;
+    bottom: 20px;
+    left: 385px;
+}
+#titulofeed{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 372px;
+    bottom:34px;
+}
+
+
+/* feed */
+#ventanafeed {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgba(57, 143, 49, 0.849);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordefeed{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(216, 72, 96);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulofeed{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosfeed{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresfeed{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralfeed{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(216, 72, 96);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadorfeed{
+  width:84%;
+  height:10%;
+  background-color:rgb(99, 9, 24);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadorfeed{
+  width: 13%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+#video-feed{
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: 32%;
+    left: 25%;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px rgba(5, 39, 1, 0.849);
+}
+
+
+/* maria */
+
+#ventanamaria {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(137, 72, 143);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordemaria{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(76, 30, 80);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulomaria{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosmaria{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresmaria{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralmaria{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(76, 30, 80);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadormaria{
+  width:84%;
+  height:10%;
+  background-color:rgba(163, 71, 117, 0.801);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadormaria{
+  width: 20%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+.mariav{
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#animal{
+    position: relative;
+    top:176px;
+    left: 340px;
+}
+#tituloanimal{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 346px;
+    top:158px;
+}
+#solas{
+    position: relative;
+    top:65px;
+    left: 570px;
+}
+#titulosolas{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 564px;
+    top:47px;
+}
+#cerquita{
+    position: relative;
+    top: 260px;
+    left: 450px;
+}
+#titulocerquita{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 450px;
+    top:241px;
+}
+
+
+#acaramelao{
+    position: relative;
+    top: 45px;
+    left: 248px;
+}
+#tituloacaramelao{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 250px;
+    top:30px;
+}
+#cazame{
+    position: relative;
+    bottom: 120px;
+    left: 785px;
+}
+#titulocazame{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 802px;
+    bottom:136px;
+}
+#debilidad{
+    position: relative;
+    bottom: 78px;
+    left:710px;
+}
+#titulodebilidad{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 723px;
+    bottom:94px;
+}
+
+#hace{
+    position: relative;
+    bottom:300px;
+    left:576px;
+}
+#titulohace{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 580px;
+    bottom:318px;
+}
+#hipnotiza{
+    position: relative;
+    bottom: 590px;
+    left:890px;
+}
+#titulohipnotiza{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 899px;
+    bottom:598px;
+}
+#episodios{
+    position: relative;
+    bottom: 340px;
+    left:442px;
+}
+#tituloepisodios{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 603px;
+    bottom:298px;
+}
+
+/* vent */
+#ventananimal {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(163, 71, 117);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordeanimal{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(137, 72, 143);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circuloanimal{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosanimal{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresanimal{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralanimal{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(137, 72, 143);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadoranimal{
+  width:84%;
+  height:10%;
+  background-color:rgb(76, 30, 80);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadoranimal{
+  width: 13%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+#video-animal{
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: 32%;
+    left: 25%;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px rgb(72, 18, 77);
+}
+
+
+/* warning */
+
+#ventanawa {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(95, 95, 95);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordewa{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(34, 34, 34);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulowa{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudoswa{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutreswa{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralwa{
+  width: 16%;
+  height: 100%;
+  background-color: rgb(34, 34, 34);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadorwa{
+  width:84%;
+  height:10%;
+  background-color:rgba(65, 9, 2, 0.801);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadorwa{
+  width: 20%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+.warningv{
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#dust{
+    position: relative;
+    top:206px;
+    left: 210px;
+}
+#titulodust{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 219px;
+    top:189px;
+}
+#crimson{
+    position: relative;
+    top:75px;
+    left: 540px;
+}
+#titulocrimson{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 542px;
+    top:57px;
+}
+#ugh{
+    position: relative;
+    top: 260px;
+    left: 530px;
+}
+#titulough{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 560px;
+    top:244px;
+}
+
+
+#one{
+    position: relative;
+    top: 5px;
+    left: 248px;
+}
+#tituloone{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 270px;
+    bottom:10px;
+}
+#stalker{
+    position: relative;
+    bottom: 120px;
+    left: 805px;
+}
+#titulostalker{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 830px;
+    bottom:136px;
+}
+#red{
+    position: relative;
+    bottom: 60px;
+    left:810px;
+}
+#titulored{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 823px;
+    bottom:74px;
+}
+
+#sacrifice{
+    position: relative;
+    bottom:300px;
+    left:536px;
+}
+#titulosacrifice{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 544px;
+    bottom:318px;
+}
+#sinister{
+    position: relative;
+    bottom: 590px;
+    left:830px;
+}
+#titulosinister{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 829px;
+    bottom:598px;
+}
+#queen{
+    position: relative;
+    bottom: 388px;
+    left:247px;
+}
+#tituloqueen{
+    font-size: small;
+    color: white;
+    position: relative;
+    left: 253px;
+    bottom:400px;
+}
+
+/* dust */
+#ventanadust{
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: rgb(65, 9, 2);
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#bordedust{
+  width: 100%;
+  height: 10%;
+  background-color: rgba(34, 5, 1, 0.801);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulodust{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosdust{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresdust{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateraldust{
+  width: 16%;
+  height: 100%;
+  background-color: rgba(34, 5, 1, 0.801);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+}
+
+#bordebuscadordust{
+  width:84%;
+  height:10%;
+  background-color:rgb(34, 34, 34);
+  position:absolute;
+  top: 10%;
+  left: 16%;
+}
+
+#buscadordust{
+  width: 13%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(199, 199, 199, 0.74);
+  position:absolute;
+  top:12%;
+  left: 47%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11.4%;
+  left: 51%;
+}
+
+#video-dust{
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: 32%;
+    left: 25%;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px rgba(3, 0, 0, 0.801);
+}
+
+
+
+#discom {
+  font-size: 0.7em;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: transparent;
+  margin-bottom: none;
+  border-style:none;
+  border-color:none;
+  cursor: pointer;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  margin: 40px -30px;
+}
+a:link{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+}
+
+#papeleram {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: transparent;
+  margin-bottom: none;
+  border-style:none;
+  border-color:none;
+  cursor: pointer;
+  cursor: pointer;
+  margin: -10px;
+}
+
+a:link{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
 }

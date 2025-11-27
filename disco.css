@@ -1,0 +1,121 @@
+body {
+    background-image: url("../assets/fondoange.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+
+}
+
+#ventanamusica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#lienzo {
+    height:80vh;
+    width: 60vw;
+    background-color: rgba(75, 13, 11, 0.952);
+    /*top:30%;
+    left:50%;*/
+    /*padding: 10%;
+    margin: 10%;*/
+    border-radius: 3%;
+    position: relative;
+    z-index: 1;
+}
+
+#lborde{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(34, 3, 3)255, 0, 0;
+    position:absolute;
+    
+}
+
+#lcirculo{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#lcircudos{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#lcircutres{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lbordebuscador{
+  width:100%;
+  height:10%;
+  background-color:rgba(58, 30, 30, 0.897);
+  position:relative;
+  top: 54px;
+
+}
+
+#lbuscador {
+  width: 40%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(92, 49, 49, 0.979);
+  position:absolute;
+  top:68px;
+  right: 32%;
+
+}
+
+#contenedor-lista {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10% 10%;
+    justify-content: center;
+}
+
+.lista {
+    text-decoration: none;
+    color: white;
+    margin: 2em;
+}
+
+#computador{
+  font-size: 1.1em;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: rgb(66, 12, 8);
+  margin-bottom: 2%;
+  border-style:dotted;
+  border-color: rgb(66, 13, 4);
+  border-radius: 10px;
+  cursor: pointer;
+  cursor: pointer;
+  margin: -10px;
+  position: absolute;
+  top:5%;
+  left:50%;
+  color: white;
+}
+
+a:link{
+    text-decoration:wavy;
+    display:inline-block;
+    color: white;
+}
